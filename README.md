@@ -1,2 +1,35 @@
-# Water-Tasks
-Water Tasks is a lightweight, responsive task management web app that visualizes tasks as seeds to be nurtured. Users can create, view, and mark tasks as completed with intuitive UI interactions. The application uses localStorage for persistent state management and is built with HTML, Tailwind CSS, and JavaScript.
+# 🌱 Water Tasks
+
+**Water Tasks** is a lightweight, responsive task management web app where each task is visualized as a seed that needs to be "watered." It helps you stay organized in a playful yet intuitive way. Built with HTML, Tailwind CSS, and JavaScript — no frameworks, no databases, just pure front-end magic with `localStorage` persistence.
+
+---
+
+## 🚀 Features
+
+- 🌿 Add new tasks with date, title, and alias
+- 💾 Persistent storage using browser `localStorage`
+- 💧 Mark tasks as "Watered" (complete) with a single click
+- 📱 Fully responsive layout with Tailwind CSS
+- 🧠 Simple and clean UI for focused task tracking
+
+---
+
+## 📸 Screenshots
+
+| Create Seed Form | Watered Tasks |
+|------------------|----------------|
+| *(Insert screenshot)* | *(Insert screenshot)* |
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5**
+- **Tailwind CSS**
+- **JavaScript (ES6)**
+- **LocalStorage** for client-side persistence
+
+---
+
+## 📂 Folder Structure
+
