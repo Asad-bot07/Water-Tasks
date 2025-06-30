@@ -14,13 +14,14 @@
 
 ---
 
-## 📸 Screenshots
+## 📸 Previews
 
-| Create Seed Form | Watered Tasks |
-|------------------|----------------|
-| *(Insert screenshot)* | *(Insert screenshot)* |
+| Mobile Preview | Desktop Preview |
+|----------------|-----------------|
+| ![Mobile Screenshot](/Assets/waterTasks2.gif) | ![Desktop Screenshot](/Assets/waterTasks.gif) |
 
 ---
+
 
 ## 🛠️ Tech Stack
 
