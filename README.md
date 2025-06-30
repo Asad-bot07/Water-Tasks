@@ -31,6 +31,12 @@
 - **LocalStorage** for client-side persistence
 
 ---
+### ✨ Usage
 
-## 📂 Folder Structure
+- Click the "Create Seed" button.
+- Fill in the date, task, and alias.
+- Press "Create seed" to add it to your task list.
+- Click "🚿 Water" to mark it complete.
+
+
 
