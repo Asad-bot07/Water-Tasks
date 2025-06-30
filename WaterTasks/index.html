@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoPopUp</title>
+    <link rel="stylesheet" href="/output.css">
+</head>
+<body class="bg-green-300 text-center">
+    <!-- Nav-Bar -->
+    <div>
+        <div class="bg-green-700 sm:min-h-[70px] min-h-[75px] text-4xl sm:text-4xl font-michroma font-bold text-white p-1.5">
+       <h1 class="fixed top-0 left-0 m-2 line-through">Grow Plants</h1>
+    </div>
+    <div class="fixed top-0 right-0 sm:text-lg flex justify-center items-center min-h-[60px]">
+        <button id="createSeed" class="bg-green-400 p-1.5 sm:p-2 mt-2.5 mr-1.5 sm:mr-1 sm:mb-1 sm:mt-2 rounded-lg hover:bg-green-500 text-white">Sow seed</button>
+    </div>
+    </div>
+    <!-- body at empty -->
+     <div class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-red-600 text-xl " id="body">
+        <div class="flex items-center space-x-0">
+            <div>
+                <img src="exclamation.png" alt="" srcset="" class="w-12 h-12">
+            </div>
+            <div>
+                <h1 class="text-xl font-semibold">Nothing to water</h1>
+            </div>
+        </div>
+     </div>
+     <!-- PopUp form -->
+      <div id="popUpForm" class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white min-h-[300px] min-w-[300px] rounded-2xl shadow-2xl shadow-green-800 transition-all ease-in-out duration-300 delay-75 opacity-0 scale-90 hidden">
+        <div class="m-4">
+            <h3 class="block">Enter date</h3>
+            <input type="date" id="DateInput" class="border-1 p-2 rounded-lg inline-block text-center">
+            <h3 class="block">Enter your task</h3>
+            <input type="text" id="TaskInput" class="border-1 p-1 rounded-lg inline-block min-w-full  text-center">
+            <h3 class="block">Enter task alias</h3>
+            <input type="text" id="taskAlias" class="border-1 p-1 rounded-lg inline-block min-w-full text-center">
+            <button id="closePopUp" class="block bg-green-700 mt-4 p-2 text-white min-w-full rounded-md hover:bg-green-900">Create seed</button>
+        </div>
+      </div>
+      <!-- CardContainer -->
+     <div id="cardDiv" class="mt-[50px] px-4 grid gap-2 sm:grid-cols-2 grid-cols-3">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
